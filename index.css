@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(227.1deg, #1B2F9C 0.7%, rgba(0, 0, 0, 0.58) 94.43%);
+  background-color: #000000;
+  height: 1000px;
+}
+
+.header {
+  display: flex;
+}
+.header h1 {
+  color: #00CFA9;
+}
+.header .navbar {
+  display: flex;
+  color: #00CFA9;
+}
+.header li {
+  color: white;
+  font-size: larger;
+}
+.header img {
+  height: 400px;
+  width: 400px;
+  border-radius: 90%;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFADE;
+  padding: 50px;
+}
+.skills .fronticons {
+  display: flex;
+}
+.skills .backicons {
+  display: flex;
+}
+
+.portfolio {
+  color: #00CFA9;
+}
+.portfolio .right {
+  display: flex;
+  justify-content: end;
+}
+.portfolio .center {
+  align-items: center;
+}
+.portfolio .center .port1 {
+  border: #00CFA9 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+.portfolio .center .port2 {
+  border: #00CFA9 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+.portfolio .center .port3 {
+  border: #00CFA9 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.about {
+  background-color: #00CFA9;
+}
+.about h1 {
+  color: #FFFADE;
+}
+.about p {
+  color: white;
+}
+
+.blog {
+  background-color: #FFFADE;
+}
+
+.contact {
+  background-color: #00CFA9;
+}/*# sourceMappingURL=index.css.map */

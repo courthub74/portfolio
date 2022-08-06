@@ -1,0 +1,105 @@
+// COLORS
+
+//background
+$backgroundbluegradient: linear-gradient(227.1deg, #1B2F9C 0.7%, rgba(0, 0, 0, 0.58) 94.43%);
+$black: #000000;
+
+//the yellow
+$theyellow: #FFFADE;
+
+//the teal
+$theteal: #00CFA9;
+
+
+// THE CODE
+
+//body
+body {
+    background: $backgroundbluegradient;
+    background-color: #000000;
+    height: 1000px
+}
+
+//header
+.header {
+    display: flex;
+    h1 {
+        color: $theteal;
+    }
+    .navbar {
+        display: flex;
+        color: $theteal;
+    }
+    li {
+        color: white;
+        font-size: larger;
+        // list-style: none;
+    }
+    img {
+        height: 400px;
+        width: 400px;
+        border-radius: 90%;
+    }
+}
+
+//skills
+.skills {
+    display: flex;
+    justify-content: space-between;
+    background-color: $theyellow;
+    padding: 50px;
+    .fronticons {
+        display: flex;
+    }
+    .backicons {
+        display: flex;
+    }
+}
+
+//portfolio
+.portfolio {
+    color: $theteal;
+    .right {
+        display: flex;
+        justify-content: end;
+    }
+    .center {
+        align-items: center;
+        .port1 {
+            border: $theteal 1px solid;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .port2 {
+            border: $theteal 1px solid;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .port3 {
+            border: $theteal 1px solid;
+            border-radius: 5px;
+            text-align: center;
+        }
+    }
+}
+
+//about
+.about {
+    background-color: $theteal;
+    h1 {
+        color: $theyellow;
+    }
+    p {
+        color: white;
+    }
+}
+
+//blog
+.blog {
+    background-color: $theyellow;
+}
+
+//contact
+.contact {
+    background-color: $theteal;
+}
