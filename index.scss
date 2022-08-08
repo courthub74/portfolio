@@ -17,28 +17,35 @@ $theteal: #00CFA9;
 body {
     background: $backgroundbluegradient;
     background-color: #000000;
-    height: 1000px
+    height: 1000px;
+    margin: 0;
+    padding: 0;
 }
 
 //header
 .header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
     h1 {
         color: $theteal;
     }
-    .navbar {
+    .nav_links {
         display: flex;
-        color: $theteal;
+        flex-direction: row;
+        list-style: none;
     }
-    li {
-        color: white;
-        font-size: larger;
-        // list-style: none;
+    li a {
+        padding: 0px 20px;
+        transition: all 0.3s ease 0s;
     }
     img {
         height: 400px;
         width: 400px;
         border-radius: 90%;
+        object-fit: cover;
     }
 }
 
@@ -47,6 +54,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: $theyellow;
+    height: 500px;
     padding: 50px;
     .fronticons {
         display: flex;
@@ -59,6 +67,7 @@ body {
 //portfolio
 .portfolio {
     color: $theteal;
+    height: 600px;
     .right {
         display: flex;
         justify-content: end;
@@ -85,6 +94,7 @@ body {
 
 //about
 .about {
+    height: 400px;
     background-color: $theteal;
     h1 {
         color: $theyellow;
@@ -97,9 +107,11 @@ body {
 //blog
 .blog {
     background-color: $theyellow;
+    height: 500px;
 }
 
 //contact
 .contact {
     background-color: $theteal;
+    height: 700px;
 }

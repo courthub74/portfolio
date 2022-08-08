@@ -2,32 +2,42 @@ body {
   background: linear-gradient(227.1deg, #1B2F9C 0.7%, rgba(0, 0, 0, 0.58) 94.43%);
   background-color: #000000;
   height: 1000px;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 800px;
 }
 .header h1 {
   color: #00CFA9;
 }
-.header .navbar {
+.header .nav_links {
   display: flex;
-  color: #00CFA9;
+  flex-direction: row;
+  list-style: none;
 }
-.header li {
-  color: white;
-  font-size: larger;
+.header li a {
+  padding: 0px 20px;
+  transition: all 0.3s ease 0s;
 }
 .header img {
   height: 400px;
   width: 400px;
   border-radius: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .skills {
   display: flex;
   justify-content: space-between;
   background-color: #FFFADE;
+  height: 500px;
   padding: 50px;
 }
 .skills .fronticons {
@@ -39,6 +49,7 @@ body {
 
 .portfolio {
   color: #00CFA9;
+  height: 600px;
 }
 .portfolio .right {
   display: flex;
@@ -64,6 +75,7 @@ body {
 }
 
 .about {
+  height: 400px;
   background-color: #00CFA9;
 }
 .about h1 {
@@ -75,8 +87,10 @@ body {
 
 .blog {
   background-color: #FFFADE;
+  height: 500px;
 }
 
 .contact {
   background-color: #00CFA9;
+  height: 700px;
 }/*# sourceMappingURL=index.css.map */
